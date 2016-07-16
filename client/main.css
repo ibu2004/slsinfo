@@ -1,1 +1,16 @@
 /* CSS declarations go here */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: green;
+    border: 5px solid cyan;
+    margin: auto;
+    font-size: 3.5em;
+    position: fized;
+}
+
+p {
+    font-family: Courier New, Courier, monospace;
+    text-align: left;
+    clear: left
+}
