@@ -5,7 +5,7 @@ h1 {
     color: green;
     border: 5px solid cyan;
     margin: auto;
-    font-size: 3.5em;
+    font-size: 10vh;
     position: fized;
 }
 
@@ -13,4 +13,11 @@ p {
     font-family: Courier New, Courier, monospace;
     text-align: left;
     clear: left
+}
+
+#exinfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: right;
 }
