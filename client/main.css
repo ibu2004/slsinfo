@@ -1,23 +1,39 @@
 /* CSS declarations go here */
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
     color: green;
     border: 5px solid cyan;
     margin: auto;
-    font-size: 10vh;
-    position: fized;
+    font-size: 7vh;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 p {
+    margin-top: 8vh;
     font-family: Courier New, Courier, monospace;
     text-align: left;
     clear: left
 }
 
-#exinfo {
+#secondaryassets {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: right;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#exinfo {
+    text-align: left;
+    width: 70%;
+}
+
+#img {
+    width: 25%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
