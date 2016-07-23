@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   <div id="secondaryassets">
     <div id="exinfo">
       <p>The core stage will be common across all currently planned evolutions of the SLS. Initial planning included studies of a smaller Block 0 configuration with three RS-25 engines, which was eliminated to avoid the need to substantially redesign the core stage for more powerful variants. Likewise, while early Block 2 plans included five RS-25 engines on the core, it was later baselined with four engines.</p>
-      <img src="img3.jpg" align="left"/>
+      <img src="img3.jpg" align="right"/>
       <h3>Boosters</h3>
       <h4>Shuttle-derived solid rocket boosters</h4>
       <p>Blocks 1 and 1B of the SLS will use two five-segment Solid Rocket Boosters (SRBs), which are based on the four-segment Space Shuttle Solid Rocket Boosters. Modifications for the SLS included the addition of a center booster segment, new avionics, and new insulation which eliminates the Shuttle SRB's asbestos and is 860 kg (1,900 lb) lighter. The five-segment SRBs provide approximately 25% more total impulse than the Shuttle SRB and will not be recovered after use.</p>
