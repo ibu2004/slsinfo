@@ -12,7 +12,7 @@ h2, h3, h4 {
 }
 
 .hyperlinks {
-    display: inline;
+    display: flex-inline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
     text-decoration: none;
@@ -29,7 +29,7 @@ h2, h3, h4 {
 p, li {
     font-family: Courier New, Courier, monospace;
     text-align: left;
-    clear: left
+    clear: left;
 }
 
 #secondaryassets {
@@ -39,12 +39,12 @@ p, li {
 }
 
 #exinfo {
-    display: inline;
+    display: flex-inline;
     padding-left: 10px;
 }
 
 img {
-    display: inline;
+    display: flex-inline;
 }
 
 

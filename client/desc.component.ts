@@ -1,5 +1,45 @@
 import { Component } from '@angular/core';
 @Component({
-  template: desc.html,
+  template: `
+  <div id="main">
+    <h2>Vehicle description</h2>
+    <h3>Core stage</h3>
+    <p>The core stage will be 8.4 meters (28 ft) in diameter and utilize four RS-25 engines. Initial flights will use modified RS-25D engines left over from the Space Shuttle program; later flights are expected to switch to a cheaper version of the engine not intended for reuse. The stage's structure will consist of a modified Space Shuttle External Tank with the aft section adapted to accept the rocket's Main Propulsion System (MPS) and the top converted to host an interstage structure. It will be fabricated at the Michoud Assembly Facility.</p>
+  </div>
+  <div id="secondaryassets">
+    <div id="exinfo">
+      <p>The core stage will be common across all currently planned evolutions of the SLS. Initial planning included studies of a smaller Block 0 configuration with three RS-25 engines, which was eliminated to avoid the need to substantially redesign the core stage for more powerful variants. Likewise, while early Block 2 plans included five RS-25 engines on the core, it was later baselined with four engines.</p>
+      <img src="img3.jpg" align="left"/>
+      <h3>Boosters</h3>
+      <h4>Shuttle-derived solid rocket boosters</h4>
+      <p>Blocks 1 and 1B of the SLS will use two five-segment Solid Rocket Boosters (SRBs), which are based on the four-segment Space Shuttle Solid Rocket Boosters. Modifications for the SLS included the addition of a center booster segment, new avionics, and new insulation which eliminates the Shuttle SRB's asbestos and is 860 kg (1,900 lb) lighter. The five-segment SRBs provide approximately 25% more total impulse than the Shuttle SRB and will not be recovered after use.</p>
+      <p>Orbital ATK (formerly Alliant Techsystems) has completed full-duration static fire tests of five-segment SRBs. These include successful firings of three developmental motors (DM-1 to DM-3) from 2009 to 2011. The DM-2 motor was cooled to a core temperature of 40 °F (4 °C), and DM-3 was heated to above 90 °F (32 °C) to validate performance at extreme temperatures. Qualification Motor 1 (QM-1) was tested on March 10, 2015. Qualification Motor 2 was successfully tested on June 28, 2016. It was the final ground test before Exploration Mission 1 (EM-1).</p>
+      <h4>Advanced boosters</h4>
+      <p>For Block 2, NASA plans to switch from Shuttle-derived five-segment SRBs to advanced boosters. This will occur after development of the Exploration Upper Stage for Block 1B. Early plans would have developed advanced boosters before an updated second stage; this configuration was called Block 1A. By 2012 NASA planned to select these new boosters through an Advanced Booster Competition which was to be held in 2015. Several companies proposed boosters for this competition:</p>
+      <ul>
+        <li>Aerojet, in partnership with Teledyne Brown, offered a booster powered by three AJ1E6 engines, which would be a newly developed LOX/RP-1 oxidizer-rich staged combustion engine. Each AJ1E6 engine would produce 4,900 kN (1,100,000 lbf) thrust using a single turbopump to supply dual combustion chambers. On February 14, 2013, NASA awarded Aerojet a $23.3 million, 30-month contract to build a 2,400 kN (550,000 lbf) main injector and thrust chamber.</li>
+        <li>ATK proposed an advanced SRB nicknamed "Dark Knight". This booster would switch from a steel case to one made of lighter composite material, use a more energetic propellant, and reduce the number of segments from five to four. It would deliver over 20,000 kN (4,500,000 lbf) maximum thrust and weigh 790,000 kg (1,750,000 lb) at ignition. According to ATK, the advanced booster would be 40% less expensive than the Shuttle-derived five-segment SRB. It is uncertain if the booster will allow SLS to deliver the mandated 130 t to LEO without the addition of a fifth engine to the core stage, as a 2013 analysis indicated a maximum capacity of 113 t with the baselined four-engine core.</li>
+        <li>Pratt & Whitney Rocketdyne and Dynetics proposed a liquid-fueled booster named "Pyrios". The booster would use two F-1B engines which together would deliver a maximum thrust of 16,000 kN (3,600,000 lbf) total, and be able to continuously throttle down to a minimum of 12,000 kN (2,600,000 lbf). The F-1B would be derived from the F-1 engine, which powered the first stage of the Saturn V. It would have been easier to assemble, with fewer parts and a simplified design, while providing improved efficiency and a thrust increase of 110 kN (25,000 lbf). Estimates in 2012 indicated that the Pyrios booster could increase Block 2 low-Earth orbit payload to 150 t, 20 t more than the baseline.</li>
+      </ul>
+      <img src="img4.jpg" align="right" />
+      <img src="img5.png" align="right" />
+      <p>Christopher Crumbly, manager of NASA's SLS advanced development office in January 2013 commented on the booster competition, "The F-1 has great advantages because it is a gas generator and has a very simple cycle. The oxygen-rich staged combustion cycle [Aerojet's engine] has great advantages because it has a higher specific impulse. The Russians have been flying ox[ygen]-rich for a long time. Either one can work. The solids [of ATK] can work."</p>
+      <p>Later analysis showed the Block 1A configuration would result in high acceleration which would be unsuitable for Orion and could require a costly redesign of the Block 1 core. In 2014, NASA confirmed the development of Block 1B instead of Block 1A and called off the 2015 booster competition. In February 2015, it was reported that SLS is expected to fly with the five-segment SRB until at least the late 2020s, and modifications to Launch Pad 39B, its flame trench, and SLS's Mobile Launcher Platform were evaluated based on SLS launching with solid-fuel boosters.</p>
+      <h3>Upper stage</h3>
+      <h4>Interim Cryogenic Propulsion Stage</h4>
+      <p>Block 1, scheduled to fly Exploration Mission 1 (EM-1) by November 2018, will use the Interim Cryogenic Propulsion Stage (ICPS). This stage will be a modified Delta IV 5–meter Delta Cryogenic Second Stage (DCSS), and will be powered by a single RL10B-2. Block 1 will be capable of lifting 70 t in this configuration, however the ICPS will be considered part of the payload and be placed into an initial 1,800 km by -93 km suborbital trajectory to ensure safe disposal of the core stage. ICPS will perform an orbital insertion burn at apogee, and then a translunar injection burn to send the uncrewed Orion on a circumlunar excursion.</p>
+      <img src="img6.jpg" align="right"/>
+      <h4>Exploration Upper Stage</h4>
+      <p>The Exploration Upper Stage (EUS) is scheduled to debut on Exploration Mission 2 (EM-2). It is expected to be used by Block 1B and Block 2 and, like the core stage, have a diameter of 8.4 meters. The EUS is to be powered by four RL10 engines, complete the SLS ascent phase and then re-ignite to send its payload to destinations beyond low-Earth orbit, similar to the role performed by the Saturn V's 3rd stage, the J-2 powered S-IVB.
+      <h4>Other upper stages</h4>
+      <ul>
+        <li>The Earth Departure Stage, powered by J-2X engines, was to be the upper stage of the Block 2 SLS had NASA decided to develop Block 1A instead of Block 1B and the EUS.</li>
+        <li>An additional beyond-LEO engine for interplanetary travel from Earth orbit to Mars orbit, and back, is being studied as of 2013 at Marshall Space Flight Center with a focus on nuclear thermal rocket (NTR) engines. In historical ground testing, NTRs proved to be at least twice as efficient as the most advanced chemical engines, allowing quicker transfer time and increased cargo capacity. The shorter flight duration, estimated at 3–4 months with NTR engines, compared to 8–9 months using chemical engines, would reduce crew exposure to potentially harmful and difficult to shield cosmic rays. NTR engines, such as the Pewee of Project Rover, were selected in the Mars Design Reference Architecture (DRA).</li>
+        <li>In 2013, NASA and Boeing analyzed the performance of several second stage options. The analysis was based on a second stage usable propellant load of 105 metric tons, except for the Block 1 and ICPS, which will carry 27.1 metric tons. The ICPS upper stage and upper stages using four RL10 engines and two MB60 engines and one J-2X engine were studied. In 2014, NASA also considered using the European Vinci instead of the RL10. The Vinci offers the same specific impulse but with 64% greater thrust, which would allow for a reduction of one or two of the four second stage engines for the same performance for a lower cost.</li>
+      </ul>
+      <img src="img7.jpg" align="right"/>
+      <p>Robotic exploration missions to Jupiter's water-ice moon Europa are increasingly seen as well suited to the lift capabilities of the Block 1B SLS.</p>
+    </div>
+  </div>`
 })
 export class DescComponent { }
