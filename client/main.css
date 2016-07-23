@@ -1,18 +1,32 @@
 /* CSS declarations go here */
 h1 {
+    display: inline;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     color: green;
-    border: 5px solid cyan;
-    margin: auto;
-    font-size: 7vh;
-    position: fixed;
-    width: 100%;
-    background-color: white;
+    font-size: 6vh;
 }
 
-p {
-    margin-top: 12vh;
+h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hyperlinks {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    text-decoration: none;
+    color: green;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+#main {
+    margin-top: 13vh;
+}
+
+p, li {
     font-family: Courier New, Courier, monospace;
     text-align: left;
     clear: left
@@ -25,19 +39,25 @@ p {
 }
 
 #exinfo {
-    text-align: left;
-    width: 70%;
+    display: inline;
+    padding-left: 10px;
 }
 
-#img {
-    width: 25%
+img {
+    display: inline;
 }
+
 
 body {
     display: flex;
     flex-direction: column;
 }
 
-a {
-    text-align: right;
+#header {
+    background-color: white;
+    position: fixed;
+    width: 99%;
+    height: 11vh;
+    margin: auto;
+    border: 5px solid cyan;
 }
