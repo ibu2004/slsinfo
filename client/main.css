@@ -40,7 +40,6 @@ p, li {
 
 #exinfo {
     display: flex-inline;
-    padding-left: 10px;
 }
 
 img {
@@ -60,4 +59,10 @@ body {
     height: 11vh;
     margin: auto;
     border: 5px solid cyan;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
 }
